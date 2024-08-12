@@ -1,0 +1,26 @@
+.back {
+    background-image: url('/black.jpg');
+    width: 100vw;
+    height: auto;
+    background-size: cover;
+}
+
+.back4 {
+    background-image: url('/black.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+.roundd {
+    animation:rot 25s linear infinite;
+}
+
+@keyframes rot {
+0%{
+    transform: rotate(0deg);
+}
+100%{
+    transform: rotate(360deg);
+}
+}

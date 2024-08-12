@@ -1,0 +1,51 @@
+.blogContent {
+    width: 400px;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    transition: transform ease-in .5s;
+}
+
+.blogContent:hover {
+    transform: scale(1.03) rotate(1deg);
+}
+
+/* Loader */
+.semicircle,
+.semicircle div {
+  /*  Adjust the size of the entire animation here.
+      (Remove max size below to go above 300px.) */
+  /* width: 170px;
+  height: 170px; */
+  /* Adjust the speed or timing function of the animation here. */
+  animation: 6s rotate141 infinite linear;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.semicircle div {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+}
+
+.semicircle:before,
+.semicircle div:before {
+  content: '';
+  width: 100%;
+  height: 50%;
+  display: block;
+  background: radial-gradient(transparent, transparent 65%, #000 65%, #000);
+  /* background-size: 100% 200%; */
+}
+
+@keyframes rotate141 {
+  to {
+    transform: rotate(360deg);
+  }
+}
