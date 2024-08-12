@@ -143,7 +143,7 @@ const HomePage = () => {
             <div className=''>
                 <div className=' w-[100%]   overflow-hidden '>
                     <div className=' w-[100%] h overflow-hidden flex flex-col sm:flex-col md:flex-row-reverse lg:flex-row-reverse '>
-                        <div className='w-[100%]  bg-[url("/influence.webp")]  bg-cover lg:w-1/2 overflow-hidden bg-[#f6f6f6]'>
+                        <div className='w-[100%]  bg-[url("/influence.webp")]  bg-contain bg-no-repeat  lg:w-1/2 overflow-hidden bg-[#f6f6f6]'>
                             <img data-aos='fade-up' data-aos-duration='1000' src="/influence.webp" alt="" className='w-full lg:hidden md:hidden' />
                         </div>
                         <div className='w-[100%]  lg:w-1/2  bg-[#f6f6f6]  content-center md:h-[75vh] pr-6 pl-4 lg:pt-3'>

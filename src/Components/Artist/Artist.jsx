@@ -91,7 +91,7 @@ const Artist = () => {
   return (
     <>
       <Navbar />
-      <div className='w-[100%] '>
+      <div className='w-[100%] mt-[82px]'>
         <div>
           <img className='w-[100%] h-[170px] md:h-[50%]' src="/blog.png" alt="" />
         </div>

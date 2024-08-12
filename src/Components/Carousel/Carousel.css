@@ -19,7 +19,7 @@
 /* To change the images height of the carousel */
 .carousel-item img {
   width: 100%;
-  height: 65vh;
+  height: 70vh;
 }
 
 .carousel-item.active {
