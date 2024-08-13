@@ -22,6 +22,14 @@
   height: 70vh;
 }
 
+  @media (max-width:740px){
+    .carousel-item img {
+      width: 100%;
+      height: 40vh;
+    }
+    
+  }
+  
 .carousel-item.active {
   display: block;
 }
