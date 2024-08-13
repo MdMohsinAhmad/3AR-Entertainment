@@ -66,7 +66,7 @@ export default function Navbar() {
                       <a href={item.href} className="block font-semibold text-gray-900">
                         {item.name}
                       </a>
-                      <p className="mt-1 text-gray-600">{item.description}</p>
+                      {/* <p className="mt-1 text-gray-600">{item.description}</p> */}
                     </div>
                   </div>
                 ))}
