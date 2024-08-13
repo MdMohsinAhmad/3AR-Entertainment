@@ -106,7 +106,7 @@ export default function Navbar() {
         <DialogPanel className="fixed inset-0 z-10 w-full mt-[82px] overflow-y-auto bg-white px-6 py-6">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
-              <img alt="" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" className="h-8 w-auto" />
+              <img alt="" src="/logo3ar3.png" className="h-8 w-auto" />
             </a>
             <button
               type="button"
@@ -114,7 +114,7 @@ export default function Navbar() {
               className="-m-2.5 rounded-md p-2.5 text-gray-700"
             >
               <span className="sr-only">Close menu</span>
-              <FontAwesomeIcon icon={faX} />
+              <FontAwesomeIcon icon={faX} style={{color:'red',backgroundColor:'gray',padding:'12px',borderRadius:'50%'}}/>
               {/* <XMarkIcon aria-hidden="true" className="h-6 w-6" /> */}
             </button>
           </div>
